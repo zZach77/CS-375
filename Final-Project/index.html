@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Music Visualizer</title>
+    <link rel="icon" href="data:,">
+    <style>
+      body {
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        display: block;
+      }
+      button {
+        position: absolute;
+        cursor: pointer;
+        background-color: #00ff00;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem;
+        font-size: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="play()">Play</button>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/r127/build/three.min.js"></script>
+    <script src="https://cdn.rawgit.com/mrdoob/three.js/r127/examples/js/controls/OrbitControls.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
+

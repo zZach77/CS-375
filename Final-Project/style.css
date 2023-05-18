@@ -1,0 +1,14 @@
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #00fdfd;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+  }
